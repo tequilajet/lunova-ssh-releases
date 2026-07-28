@@ -1,0 +1,84 @@
+Lunova SSH — Лицензионное соглашение с конечным пользователем (EULA)
+Lunova SSH — End-User License Agreement (EULA)
+
+Версия 1.0 / Version 1.0 — июль 2026 / July 2026
+© 2026 tequilajet. Все права защищены. / All rights reserved.
+
+================================= РУССКИЙ =================================
+
+Устанавливая или используя программу «Lunova SSH» (далее — Программа), вы
+принимаете условия настоящего соглашения.
+
+1. Бесплатное использование. Программа предоставляется бесплатно для
+   использования физическими лицами на любом количестве устройств.
+
+2. Добровольная поддержка. Разработку можно поддержать добровольным разовым
+   платежом фиксированного размера. Оплата не открывает дополнительных
+   функций, не является обязательной и не создаёт дополнительных
+   обязательств автора перед плательщиком.
+
+3. Разрешается свободно передавать и публиковать НЕИЗМЕНЁННЫЕ установочные
+   файлы Программы при условии сохранения настоящего соглашения и без
+   взимания платы за саму Программу.
+
+4. Запрещается: (а) продавать Программу или доступ к ней; (б) распространять
+   изменённые копии Программы; (в) выдавать Программу или её части за своё
+   произведение; (г) декомпилировать, дизассемблировать или иным образом
+   извлекать исходный код Программы, за исключением случаев, прямо
+   разрешённых применимым законодательством.
+
+5. Исходный код Программы закрыт. Никакие права на исходный код, кроме
+   прямо перечисленных в настоящем соглашении, не передаются.
+
+6. Сторонние компоненты. Программа включает компоненты с открытым исходным
+   кодом; их перечень и лицензии приведены в файле THIRD-PARTY-NOTICES.md,
+   входящем в поставку. Настоящее соглашение не ограничивает права,
+   предоставленные лицензиями этих компонентов.
+
+7. Отказ от гарантий. Программа поставляется «КАК ЕСТЬ», без каких-либо
+   гарантий, явных или подразумеваемых. В максимальной степени, допускаемой
+   законом, автор не несёт ответственности за любой прямой или косвенный
+   ущерб, возникший в связи с использованием или невозможностью
+   использования Программы.
+
+8. Действие соглашения прекращается автоматически при нарушении его условий;
+   в этом случае вы обязаны прекратить использование Программы и удалить её
+   копии.
+
+================================= ENGLISH =================================
+
+By installing or using the "Lunova SSH" application (the "Software"), you
+agree to the terms of this agreement.
+
+1. Free use. The Software is provided free of charge for use by individuals
+   on any number of devices.
+
+2. Voluntary support. Development may be supported by a voluntary one-time
+   payment of a fixed amount. Payment does not unlock additional features,
+   is not mandatory, and creates no additional obligations of the author to
+   the payer.
+
+3. You may freely share and publish UNMODIFIED installation files of the
+   Software, provided this agreement is preserved and no fee is charged for
+   the Software itself.
+
+4. You may not: (a) sell the Software or access to it; (b) distribute
+   modified copies of the Software; (c) present the Software or its parts as
+   your own work; (d) decompile, disassemble or otherwise extract the source
+   code of the Software, except as expressly permitted by applicable law.
+
+5. The source code of the Software is proprietary. No rights to the source
+   code are granted other than those expressly listed in this agreement.
+
+6. Third-party components. The Software includes open-source components;
+   their list and licenses are provided in the bundled file
+   THIRD-PARTY-NOTICES.md. This agreement does not limit the rights granted
+   by the licenses of those components.
+
+7. Disclaimer of warranty. The Software is provided "AS IS", without any
+   warranties, express or implied. To the maximum extent permitted by law,
+   the author shall not be liable for any direct or indirect damages arising
+   from the use of, or inability to use, the Software.
+
+8. This agreement terminates automatically upon breach of its terms; in that
+   case you must stop using the Software and delete its copies.
