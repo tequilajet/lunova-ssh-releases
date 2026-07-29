@@ -105,6 +105,8 @@ Ideas we like but haven't committed to:
 
 - **Syncing servers between devices** — through our own encrypted storage
 - **Builds for ARM versions of Linux and Windows**
+- **Other protocols — RDP and VNC** — the way MobaXterm does it. Today such sessions are
+  counted and skipped on import. Whether an SSH client needs them is still an open question
 
 ---
 
