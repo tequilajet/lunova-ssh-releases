@@ -46,15 +46,15 @@ it directly affects what gets built next.
 - [x] Move every server to another computer as one encrypted file
 - [ ] Sync between devices
 
-### 💻 Terminal `████████░░` 80%
+### 💻 Terminal `█████████░` 90%
 
 - [x] Tabs and several sessions at once
 - [x] Your local shell in the same window
 - [x] Copy, paste and search in the output
 - [x] Tabs restored after a restart
 - [x] Font, size and color scheme of your choice
+- [x] Saved commands with placeholders — one click drops them into the terminal
 - [ ] Several terminals in one window
-- [ ] Saved commands for quick reuse
 
 ### 📁 Files (SFTP) `█████████░` 90%
 
@@ -90,7 +90,6 @@ it directly affects what gets built next.
 |---|---|---|
 | 🚀 | **Jump hosts** | Reach servers that sit behind a bastion |
 | 🔀 | **Port forwarding** | Databases and internal services, on your machine |
-| ⚡ | **Saved commands** | What you type often — in one click |
 | 📦 | **Bulk file operations** | Transfer folders and multi-file selections |
 | 🪟 | **Split panes** | Work with several servers at once |
 | ☀️ | **Light theme** | For those who don't get along with dark |
