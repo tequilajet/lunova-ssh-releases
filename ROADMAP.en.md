@@ -43,6 +43,7 @@ it directly affects what gets built next.
 - [x] Server list with groups and one search box for everything
 - [x] Quick connect without saving, plus a Recent list
 - [x] Custom ordering inside a group
+- [x] Sidebar width is adjustable by dragging and is remembered
 - [x] Move every server to another computer as one encrypted file
 - [ ] Sync between devices
 
