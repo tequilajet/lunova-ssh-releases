@@ -56,6 +56,7 @@ it directly affects what gets built next.
 - [x] Tabs restored after a restart
 - [x] Font, size and color scheme of your choice
 - [x] Saved commands with placeholders — one click drops them into the terminal
+- [x] Type into several servers at once — one command goes to every checked session
 - [ ] Several terminals in one window
 
 ### 📁 Files (SFTP) `█████████░` 90%
