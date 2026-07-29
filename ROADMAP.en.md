@@ -44,6 +44,7 @@ it directly affects what gets built next.
 - [x] Quick connect without saving, plus a Recent list
 - [x] Custom ordering inside a group
 - [x] Sidebar width is adjustable by dragging and is remembered
+- [x] Import servers from MobaXterm — folders become groups
 - [x] Move every server to another computer as one encrypted file
 - [ ] Sync between devices
 
