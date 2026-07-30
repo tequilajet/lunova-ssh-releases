@@ -37,6 +37,8 @@ it directly affects what gets built next.
 - [x] Host key check on first connect, warning when it changes
 - [x] Import from `~/.ssh/known_hosts` and `~/.ssh/config`
 - [x] Works correctly over VPN
+- [x] Port forwarding — local, remote and a SOCKS proxy, up to 64 tunnels
+- [ ] Jump host support
 
 ### 🗂 Managing servers `█████████░` 90%
 
@@ -92,7 +94,6 @@ it directly affects what gets built next.
 | | Feature | What you get |
 |---|---|---|
 | 🚀 | **Jump hosts** | Reach servers that sit behind a bastion |
-| 🔀 | **Port forwarding** | Databases and internal services, on your machine |
 | 📦 | **Bulk file operations** | Transfer folders and multi-file selections |
 | 🪟 | **Split panes** | Work with several servers at once |
 | ☀️ | **Light theme** | For those who don't get along with dark |
