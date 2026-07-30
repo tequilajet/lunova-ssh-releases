@@ -38,7 +38,7 @@ it directly affects what gets built next.
 - [x] Import from `~/.ssh/known_hosts` and `~/.ssh/config`
 - [x] Works correctly over VPN
 - [x] Port forwarding — local, remote and a SOCKS proxy, up to 64 tunnels
-- [ ] Jump host support
+- [x] Jump hosts — a chain of several bastions
 
 ### 🗂 Managing servers `█████████░` 90%
 
@@ -93,11 +93,11 @@ it directly affects what gets built next.
 
 | | Feature | What you get |
 |---|---|---|
-| 🚀 | **Jump hosts** | Reach servers that sit behind a bastion |
 | 📦 | **Bulk file operations** | Transfer folders and multi-file selections |
 | 🪟 | **Split panes** | Work with several servers at once |
 | ☀️ | **Light theme** | For those who don't get along with dark |
-| 📥 | **Import from other clients** | Move in without re-entering every server |
+| 📥 | **Import from Termius and PuTTY** | Move in without re-entering every server |
+| 🖥 | **RDP and VNC** | A remote desktop in the same window as your terminals |
 
 ---
 
@@ -107,8 +107,6 @@ Ideas we like but haven't committed to:
 
 - **Syncing servers between devices** — through our own encrypted storage
 - **Builds for ARM versions of Linux and Windows**
-- **Other protocols — RDP and VNC** — the way MobaXterm does it. Today such sessions are
-  counted and skipped on import. Whether an SSH client needs them is still an open question
 
 ---
 
