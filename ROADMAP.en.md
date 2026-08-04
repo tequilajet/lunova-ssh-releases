@@ -2,7 +2,8 @@
 
 # Lunova SSH — Roadmap
 
-**An SSH & SFTP client for macOS, Linux and Windows. Free, no subscriptions.**
+**A remote access client for macOS, Linux and Windows: SSH, SFTP, VNC and RDP.
+Free, no subscriptions.**
 
 [![Latest release](https://img.shields.io/github/v/release/tequilajet/lunova-ssh-releases?label=version&color=4c8dff)](https://github.com/tequilajet/lunova-ssh-releases/releases/latest)
 [![Platforms](https://img.shields.io/badge/platforms-macOS%20·%20Linux%20·%20Windows-4c8dff)](https://github.com/tequilajet/lunova-ssh-releases/releases/latest)
@@ -46,7 +47,7 @@ it directly affects what gets built next.
 - [x] Quick connect without saving, plus a Recent list
 - [x] Custom ordering inside a group
 - [x] Sidebar width is adjustable by dragging and is remembered
-- [x] Import servers from MobaXterm — folders become groups
+- [x] Import servers from MobaXterm — SSH, RDP and VNC, with folders becoming groups
 - [x] Move every server to another computer as one encrypted file
 - [ ] Sync between devices
 
@@ -59,6 +60,7 @@ it directly affects what gets built next.
 - [x] Font, size and color scheme of your choice
 - [x] Saved commands with placeholders — one click drops them into the terminal
 - [x] Type into several servers at once — one command goes to every checked session
+- [x] Files and terminal at the same time — a side-by-side mode with a draggable divider
 - [ ] Several terminals in one window
 
 ### 📁 Files (SFTP) `█████████░` 90%
@@ -68,7 +70,21 @@ it directly affects what gets built next.
 - [x] Drag and drop from Finder and Explorer
 - [x] Create, rename and delete
 - [x] Built-in editor for files on the server
-- [ ] Bulk operations and whole folders
+- [x] Bulk operations: many files at once and whole folders, both ways
+- [x] Multi-select in panes (⌘/Ctrl-click, ⇧-range, ⌘A) with overall “file N of M” progress
+
+### 🖥 Remote desktop `████████░░` 80%
+
+- [x] **VNC** — the remote machine's screen in a tab next to your terminals
+- [x] Fit-to-window or 1:1 scaling with scrolling, text paste, Ctrl+Alt+Del
+- [x] The VNC password lives in the system keychain, just like SSH passwords
+- [x] Connect through intermediate SSH servers (ProxyJump) — VNC reaches through a bastion
+- [x] **RDP** — a Windows desktop in a tab, with Network Level Authentication (NLA)
+- [x] Windows domain on the entry, text paste and Ctrl+Alt+Del
+- [x] Server identity check: the fingerprint is remembered, you are warned if it changes
+- [x] **VNC over TLS (VeNCrypt)** — an encrypted channel to servers configured for TLS
+- [x] VNC server identity check: the fingerprint is remembered, you are warned if it changes
+- [ ] Drive and printer redirection for RDP
 
 ### 🔒 Security and updates `█████████░` 90%
 
@@ -77,6 +93,7 @@ it directly affects what gets built next.
 - [x] In-app updates on all three systems
 - [x] New version notice with the list of changes
 - [x] English and Russian interface
+- [x] Optional log file — handy when something will not connect
 - [ ] Signed builds
 
 ---
@@ -93,11 +110,9 @@ it directly affects what gets built next.
 
 | | Feature | What you get |
 |---|---|---|
-| 📦 | **Bulk file operations** | Transfer folders and multi-file selections |
 | 🪟 | **Split panes** | Work with several servers at once |
 | ☀️ | **Light theme** | For those who don't get along with dark |
 | 📥 | **Import from Termius and PuTTY** | Move in without re-entering every server |
-| 🖥 | **RDP and VNC** | A remote desktop in the same window as your terminals |
 
 ---
 
@@ -107,6 +122,9 @@ Ideas we like but haven't committed to:
 
 - **Syncing servers between devices** — through our own encrypted storage
 - **Builds for ARM versions of Linux and Windows**
+- **Root rights in the file tree** — files are currently shown with the rights of the user you
+  logged in as, even after you get `sudo` in the terminal. Technically possible, but it needs the
+  `sudo` password and does not work on every server — still deciding whether it is worth it
 
 ---
 
