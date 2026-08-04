@@ -46,6 +46,8 @@ it directly affects what gets built next.
 - [x] Server list with groups and one search box for everything
 - [x] Quick connect without saving, plus a Recent list
 - [x] Custom ordering inside a group
+- [x] Your own layout of groups on the home screen — set the number of columns and arrange groups with arrows
+- [x] One button collapses and expands every group at once
 - [x] Sidebar width is adjustable by dragging and is remembered
 - [x] Import servers from MobaXterm — SSH, RDP and VNC, with folders becoming groups
 - [x] Move every server to another computer as one encrypted file
@@ -61,6 +63,7 @@ it directly affects what gets built next.
 - [x] Saved commands with placeholders — one click drops them into the terminal
 - [x] Type into several servers at once — one command goes to every checked session
 - [x] Files and terminal at the same time — a side-by-side mode with a draggable divider
+- [x] Clicking with the mouse moves the cursor in the input line, like in a normal terminal
 - [ ] Several terminals in one window
 
 ### 📁 Files (SFTP) `█████████░` 90%
@@ -84,6 +87,8 @@ it directly affects what gets built next.
 - [x] Server identity check: the fingerprint is remembered, you are warned if it changes
 - [x] **VNC over TLS (VeNCrypt)** — an encrypted channel to servers configured for TLS
 - [x] VNC server identity check: the fingerprint is remembered, you are warned if it changes
+- [x] Mouse and keyboard control in RDP sessions, scroll wheel included
+- [x] The RDP screen follows the window — the desktop resolution changes with the tab size, plus a "Fit" mode
 - [ ] Drive and printer redirection for RDP
 
 ### 🔒 Security and updates `█████████░` 90%
